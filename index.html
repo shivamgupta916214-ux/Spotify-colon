@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option"></div>
+                <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">search</a>
+                </div>       
+                <div class="library">
+                      <div class="options">
+                        <div class="lib-option nav-option">
+                            <img src="/assets/library_icon.png">
+                             <a href="#">Your Library</a>
+
+                        </div>
+                         <div class="icon">  
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>  
+                    </div> 
+                    <div class="lib-box">
+                        <div class="box">
+                            <div class="box-p1">Create your first playlist</div>
+                            <p class="box-p2">It's easy,we'll help you</p>
+                            <button class="badge">Create playlist</button>                    </div>
+                    </div>
+                    <div class="box">
+                            <div class="box-p1">Let's find some podcasts to follow</div>
+                            <p class="box-p2">We'll keep you update on new episodes </p>
+                            <button class="badge">Browse podcasts</button>                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                <img src="./assets/backward_icon.png">
+                <img src="./assets/forward_icon.png" class="hide"></div>
+                <img src="./assets/logo.png" class="my-spotify">
+                <p class="tag"><b> APNA spotify</b></p>
+                <div class="sticky-nav-opti ons">
+                    <button class="badge nav-item hide">Explore Premium</button>                   
+            <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>   
+        <i class="fa-regular fa-user"></i>               </div>
+                </div>
+              
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                        
+                    </div>
+                </div>
+
+
+                <h2>Trending Songs </h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/download.jpg" class="card-img">
+                        <p class="card-tittle">PAN INDIA</p>
+                        <p class="card-info">GuruRandhawa,Gurjit Gill ,Lavish Dhiman</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/td2.jpg" class="card-img">
+                        <p class="card-tittle">Tutor</p>
+                        <p class="card-info">Cheema Y,GurSidhu</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/td3.jpg" class="card-img">
+                        <p class="card-tittle">Dhurandhar-Title Track(From...</p>
+                        <p class="card-info">Shashwat Sachdev,
+                            Hanumankind,Jasmin...</p>
+                            <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/td4.jpg" class="card-img">
+                        <p class="card-tittle">TumMereNaHuye- from"Thamma"</p>
+                        <p class="card-info">Sachin-Jigar,Madhubanti Baghi,...</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/td5.jpg" class="card-img">
+                        <p class="card-tittle">Oorum Blood-from"Dude"</p>
+                        <p class="card-info"> Sai abhyankkar,Paal
+                            Dabba,bebhumika,---
+                        </p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                </div>
+                 <h2> Popular artists</h2>
+                 <div class="cards-container">
+                          <div class="card">
+                        <img src="./assets/img6.jpg" class="card-img">
+                        <p class="card-tittle">A.R.Rahman</p>
+                        <p class="card-info">Artist</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img2.jpg" class="card-img">
+                        <p class="card-tittle">Arijit Singh</p>
+                        <p class="card-info">Artist</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img3.jpg" class="card-img">
+                        <p class="card-tittle">Arman Malik</p>
+                        <p class="card-info">Artist</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img4.jpg" class="card-img">
+                        <p class="card-tittle">Kumar Kishor</p>
+                        <p class="card-info">Artist</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img5.jpg" class="card-img">
+                        <p class="card-tittle">Shreya Ghoshal</p>
+                        <p class="card-info">Artist</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+                    
+                 </div>
+                <!-- Featured Charts section -->
+                    <h2>Featured Charts</h2>
+                    <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" class="card-img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" class="card-img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" class="card-img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                        <div class="play-btn">
+                         <i class="fa-solid fa-play"></i>
+                            </div>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    </div>
+
+                    <!-- 👇 Footer yaha likhna hai, cards ke baad -->
+                    <div class="footer">
+                    <div class="line"></div>
+                    </div>
+                        </div>
+        
+                            <div class="music-player">
+                                <div class="album">
+                                    <div class="album-controls">
+                                        <img src="./assets/td4.jpg" class="img">
+                                        <div><p>Daylight</p>
+                                        David Kushner
+                                    
+                                    </div>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-regular fa-rectangle-wide"></i>
+                                    </div>
+                                </div>
+                                <div class="player">
+                                    <div class="player-controls">
+                                        <img src="/assets/player_icon1.png" class="player-controls-icon">
+                                        <img src="/assets/player_icon2.png" class="player-controls-icon">
+                                        <img src="/assets/player_icon3.png" class="player-controls-icon" style="height: 2rem; opacity: 1;">
+                                        <img src="/assets/player_icon4.png" class="player-controls-icon">
+                                        <img src="/assets/player_icon5.png" class="player-controls-icon">
+                                    </div>
+                                    <div class="palyback-bar">
+                                        <spam class="cur-time">00:00</spam>
+                                        <input type="range" min="0" max="100" class="progress-bar"step="1">
+                                        <spam class="tut-time">3:33</spam>
+                                    </div>
+                                </div>
+                                <div class="controls"></div>
+                            </div>
+                        </div>
+                    </body>
+            </html>
